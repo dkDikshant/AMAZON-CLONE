@@ -45,9 +45,9 @@ const FlagBoxStyle = styled('div')({
 })
 
 const FlagStyle = styled('img')({
-    width: 22,
-    height: 22,
-    marginTop: 5,
+    width: 25,
+    height: 20,
+    marginTop: 7,
     cursor: 'pointer'
 })
 
