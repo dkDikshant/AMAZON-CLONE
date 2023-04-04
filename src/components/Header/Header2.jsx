@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Box, Typography, Drawer, List, ListItem, ListItemText, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import { Box, Typography, Drawer, List, ListItem, ListItemText, MenuItem } from '@mui/material';
 import styled from '@emotion/styled';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-
-const DrawerStyle = styled(Drawer)({
-    width: '500px'
-})
+import { Menu } from '@mui/material';
+import Prime from '../../IMAGES/prime.jpg'
 
 
 const MyBox = styled(Box)({
@@ -119,6 +116,16 @@ const Header2 = () => {
     const toggleDrawer = (open) => (event) => {
         setIsOpen(open);
     };
+    const [anchorEl, setAnchorEl] = useState(null);
+
+    const handleMenuClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleMenuClose = () => {
+        setAnchorEl(null);
+    };
+
     return (
         <div style={{ width: '100%', height: 35, background: '#232F3E', color: 'whitesmoke', padding: 2, cursor: 'pointer', display: 'flex' }}>
             <>
@@ -212,9 +219,16 @@ const Header2 = () => {
             <ElectronicStyle>
                 <Typography>Electronics</Typography>
             </ElectronicStyle>
-            <PrimeStyle>
-                <Typography>Prime </Typography>
-                <ArrowDropDownIcon />
+            <PrimeStyle onClick={handleMenuClick}>
+                <>
+                    <Typography>Prime</Typography>
+                    <ArrowDropDownIcon />
+                </>
+                <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
+                    <MenuItem>
+                        <img src={Prime} alt="Image" style={{ maxWidth: '100%', marginTop: '16px' }} />
+                    </MenuItem>
+                </Menu>
             </PrimeStyle>
         </div >
     )
