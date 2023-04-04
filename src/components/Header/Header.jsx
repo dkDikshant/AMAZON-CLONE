@@ -1,10 +1,10 @@
 import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { AppBar, Toolbar, styled, Typography, InputBase, Box } from '@mui/material';
-import Logo from '../IMAGES/Amazon-Logo.jpg';
+import Logo from '../../IMAGES/Amazon-Logo.jpg';
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import Flag from '../IMAGES/Flag.jpg';
+import Flag from '../../IMAGES/Flag.jpg'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const HeaderStyle = styled(AppBar)`
@@ -82,7 +82,7 @@ const OrderStyle = styled('div')({
 const Header = () => {
     return (
         <div>
-            <HeaderStyle>
+            <HeaderStyle position='static'>
                 <Toolbar>
                     <LogoStyle src={Logo} style={{ marginLeft: 10 }} />
                     <DivOnestyle style={{ display: 'flex', marginLeft: 15 }}>
