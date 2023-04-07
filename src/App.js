@@ -7,7 +7,8 @@ import ProductsData from './components/ProductsData';
 import Sign from './components/Sign';
 import Slides from './components/Slides';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
-
+import Sell from './components/sell/Sell';
+import Service from './components/customerserrvice/Service';
 
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Header/>}/>
+        <Route exact path='/' Component={Header}/>
         <Route path='/signin' element={<Sign/>}/>
         <Route path='/addaccount' element={<AccountSignIn/>}/>
-        
+        <Route path='/sell' element={<Sell/>}/>
+        <Route path='/service' element={<Service/>}/>
       </Routes>
     </BrowserRouter>
     </>
@@ -27,3 +29,5 @@ function App() {
 }
 
 export default App;
+
+

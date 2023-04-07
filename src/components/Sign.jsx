@@ -47,7 +47,7 @@ const Sign = () => {
                 </Box>
             </BoxStyle>
             <hr style={{ width: '40%', marginTop: 10 }}></hr>
-            <NavLink to='/addaccount'>
+            <NavLink to='/addaccount' style={{ textDecoration: 'none' }}>
                 <Button style={{ color: 'black', background: '#EFF1F3', marginLeft: '42%', padding: 10, fontSize: 12 }}>Create Your amazon Account</Button>
             </NavLink>
 

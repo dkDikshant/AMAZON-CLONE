@@ -128,7 +128,7 @@ const Slides = () => {
                 <InsideBoxStyle style={{ marginLeft: '10px' }}>
                     <Box style={{ width: 300, height: 150, boxShadow: ' rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px' }}>
                         <Typography style={{ paddingTop: 20, paddingLeft: 50, paddingRight: 30, fontWeight: 800 }}>Sign In for Your Best Experience</Typography>
-                        <NavLink to="/signin">
+                        <NavLink to="/signin" style={{ textDecoration: 'none' }}>
                             <Button style={{ background: '#FFD814', marginLeft: 30, paddingLeft: 50, paddingRight: 50, marginTop: 10, textDecoration: 'none' }}>Sign in securly</Button>
                         </NavLink>
 

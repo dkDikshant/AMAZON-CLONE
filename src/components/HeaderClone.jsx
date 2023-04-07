@@ -1,14 +1,13 @@
 import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { AppBar, Toolbar, styled, Typography, InputBase, Box, Button, Slide } from '@mui/material';
-import Logo1 from '../../IMAGES/logo1.png';
+import Logo1 from '../IMAGES/logo1.png';
+
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import Flag from '../../IMAGES/Flag.jpg'
+import Flag from '../IMAGES/Flag.jpg'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import Header2 from './Header2';
-import ProductsData from '../ProductsData';
-import Slides from '../Slides';
+
 import { NavLink } from 'react-router-dom';
 
 const HeaderStyle = styled(AppBar)`
@@ -123,9 +122,6 @@ const Header = () => {
                     <ShoppingCartIcon style={{ fontSize: 30, marginLeft: 20, cursor: 'pointer' }} />
                 </Toolbar>
             </HeaderStyle>
-            <Header2 />
-            <Slides />
-            <ProductsData />
 
         </div>
     )

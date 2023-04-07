@@ -44,8 +44,7 @@ const AccountSignIn = () => {
                 <Typography>Password</Typography>
                 <InputStyle type='number' placeholder='At least 6 characters'></InputStyle>
                 <Typography style={{ marginTop: 10 }}>By enrolling your mobile phone number, you consent to receive automated security notifications via text message from Amazon. Message and data rates may apply.</Typography>
-                <NavLink to='/'>
-
+                <NavLink to='/' style={{ textDecoration: 'none' }}>
                     <Button style={{ color: 'black', background: '#F2CA65', width: '90%', padding: 10, fontSize: 12, marginLeft: 10, marginTop: 20 }}>continue</Button>
                 </NavLink>
             </BoxStyle>

@@ -6,7 +6,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Menu } from '@mui/material';
 import Prime from '../../IMAGES/prime.jpg'
-
+import { NavLink } from 'react-router-dom';
 
 const MyBox = styled(Box)({
     display: 'flex',
@@ -202,7 +202,9 @@ const Header2 = () => {
                 <Typography>Amazon MiniTV</Typography>
             </MiniTVStyle>
             <SellStyle>
-                <Typography>Sell</Typography>
+                <NavLink to='/sell' style={{ textDecoration: 'none', color: 'white' }}>
+                    <Typography>Sell</Typography>
+                </NavLink>
             </SellStyle>
             <BestSellStyle>
                 <Typography>Best Sellers</Typography>
@@ -214,7 +216,9 @@ const Header2 = () => {
                 <Typography>Today's Deals</Typography>
             </TodaysStyle>
             <CustomerStyle>
-                <Typography>Customer Service</Typography>
+                <NavLink to='/service' style={{ textDecoration: 'none', color: 'white' }}>
+                    <Typography>Customer Service</Typography>
+                </NavLink>
             </CustomerStyle>
             <ElectronicStyle>
                 <Typography>Electronics</Typography>
