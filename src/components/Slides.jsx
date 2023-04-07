@@ -16,6 +16,7 @@ import img3 from '../IMAGES/img3.jpg'
 import img4 from '../IMAGES/img4.jpg'
 import laptop from '../IMAGES/laptop.jpg'
 import laptop1 from '../IMAGES/laptop1.jpg'
+import { NavLink, Link } from 'react-router-dom';
 
 const responsive = {
 
@@ -127,7 +128,10 @@ const Slides = () => {
                 <InsideBoxStyle style={{ marginLeft: '10px' }}>
                     <Box style={{ width: 300, height: 150, boxShadow: ' rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px' }}>
                         <Typography style={{ paddingTop: 20, paddingLeft: 50, paddingRight: 30, fontWeight: 800 }}>Sign In for Your Best Experience</Typography>
-                        <Button style={{ background: '#FFD814', marginLeft: 30, paddingLeft: 50, paddingRight: 50, marginTop: 10 }}>Sign in securly</Button>
+                        <NavLink to="/signin">
+                            <Button style={{ background: '#FFD814', marginLeft: 30, paddingLeft: 50, paddingRight: 50, marginTop: 10, textDecoration: 'none' }}>Sign in securly</Button>
+                        </NavLink>
+
                     </Box>
                     <Box style={{ marginTop: 30, marginLeft: 10 }}>
                         <img src={laptop1} style={{ height: 230 }} />

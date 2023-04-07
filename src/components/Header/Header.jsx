@@ -1,11 +1,15 @@
 import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { AppBar, Toolbar, styled, Typography, InputBase, Box } from '@mui/material';
-import Logo from '../../IMAGES/Amazon-Logo.jpg';
+import { AppBar, Toolbar, styled, Typography, InputBase, Box, Button, Slide } from '@mui/material';
+import Logo1 from '../../IMAGES/logo1.png';
 import SearchIcon from '@mui/icons-material/Search';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Flag from '../../IMAGES/Flag.jpg'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Header2 from './Header2';
+import ProductsData from '../ProductsData';
+import Slides from '../Slides';
+import { NavLink } from 'react-router-dom';
 
 const HeaderStyle = styled(AppBar)`
     background:#131921;
@@ -86,7 +90,7 @@ const Header = () => {
         <div>
             <HeaderStyle position='static'>
                 <Toolbar>
-                    <LogoStyle src={Logo} style={{ marginLeft: 10 }} />
+                    <LogoStyle src={Logo1} style={{ marginLeft: 10 }} />
                     <DivOnestyle style={{ display: 'flex', marginLeft: 15 }}>
                         <LocationOnIcon style={{ marginTop: 12 }} />
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginTop: 0 }}>
@@ -105,10 +109,13 @@ const Header = () => {
                         <FlagStyle src={Flag} />
                         <h4 style={{ display: 'flex', marginTop: 5 }}>EN <ArrowDropDownIcon /></h4>
                     </FlagBoxStyle>
-                    <SignStyle >
-                        <p style={{ marginTop: 0, marginRight: 20, marginBottom: 0, fontSize: 12 }}>Hello,sign in </p>
-                        <p style={{ marginTop: 0, marginRight: 10, marginBottom: 0, fontSize: 12 }}>Account & List<ArrowDropDownIcon style={{ marginLeft: 2, fontSize: 10 }} /></p>
-                    </SignStyle>
+                    <NavLink to="/signin">
+                        <SignStyle >
+                            <p style={{ marginTop: 0, marginRight: 20, marginBottom: 0, fontSize: 12, color: 'white' }}>Hello,sign in </p>
+                            <p style={{ marginTop: 0, marginRight: 10, marginBottom: 0, fontSize: 12, color: 'white' }}>Account & List<ArrowDropDownIcon style={{ marginLeft: 2, fontSize: 10 }} /></p>
+                        </SignStyle>
+                    </NavLink>
+
                     <OrderStyle >
                         <p style={{ marginTop: 0, marginRight: 10, marginBottom: 0, fontSize: 12 }}>Returns & </p>
                         <p style={{ marginTop: 0, marginRight: 10, marginBottom: 0, fontSize: 12 }}>Orders<ArrowDropDownIcon style={{ marginLeft: 2, fontSize: 10 }} /></p>
@@ -116,7 +123,9 @@ const Header = () => {
                     <ShoppingCartIcon style={{ fontSize: 30, marginLeft: 20, cursor: 'pointer' }} />
                 </Toolbar>
             </HeaderStyle>
-
+            <Header2 />
+            <Slides />
+            <ProductsData />
         </div>
     )
 }
