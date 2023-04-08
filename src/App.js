@@ -12,6 +12,8 @@ import Service from './components/customerserrvice/Service';
 import MiniTV from './components/miniTv/MiniTV';
 import Prime from './components/prime/Prime';
 import Electronic from './components/electronic/Electronic';
+import Mobile from './components/mobile/Mobile';
+import BestSeller from './components/bestSeller/BestSeller';
 
 
 function App() {
@@ -27,7 +29,8 @@ function App() {
         <Route path='/miniTv' element={<MiniTV/>}/>
         <Route path='/prime' element={<Prime/>}/>
         <Route path='/electronic' element={<Electronic/>}/>
-
+        <Route path='/mobiles' element={<Mobile/>}/>
+        <Route path='/best-seller' element={<BestSeller/>}/>
       </Routes>
     </BrowserRouter>
     </>

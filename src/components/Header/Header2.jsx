@@ -209,10 +209,14 @@ const Header2 = () => {
                 </NavLink>
             </SellStyle>
             <BestSellStyle>
-                <Typography>Best Sellers</Typography>
+                <NavLink to='/best-seller' style={{ color: 'white', textDecoration: 'none' }}>
+                    <Typography>Best Sellers</Typography>
+                </NavLink>
             </BestSellStyle>
             <MobileStyle>
-                <Typography>Mobiles</Typography>
+                <NavLink to='/mobiles' style={{ color: 'white', textDecoration: 'none' }}>
+                    <Typography>Mobiles</Typography>
+                </NavLink>
             </MobileStyle>
             <TodaysStyle>
                 <Typography>Today's Deals</Typography>
