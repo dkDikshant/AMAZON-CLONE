@@ -223,7 +223,9 @@ const Header2 = () => {
                 </NavLink>
             </CustomerStyle>
             <ElectronicStyle>
-                <Typography>Electronics</Typography>
+                <NavLink to='/electronic' style={{ textDecoration: 'none', color: 'white' }}>
+                    <Typography>Electronics</Typography>
+                </NavLink>
             </ElectronicStyle>
             <PrimeStyle >
                 <NavLink to='/prime' style={{ textDecoration: 'none', color: 'white' }}>
