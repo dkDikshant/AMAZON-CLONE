@@ -12,7 +12,6 @@ import img3 from '../../IMAGES/MINITV/img3.jpeg'
 import img4 from '../../IMAGES/MINITV/img4.jpeg'
 import img6 from '../../IMAGES/MINITV/img6.jpeg'
 import img7 from '../../IMAGES/MINITV/img7.jpeg'
-import '../miniTv/Mini.css';
 import imgg1 from '../../IMAGES/MINITV/Trending/img1.jpg'
 import imgg2 from '../../IMAGES/MINITV/Trending/img2.jpg'
 import imgg3 from '../../IMAGES/MINITV/Trending/img3.jpg'
@@ -59,7 +58,7 @@ const ImgStyle = styled('img')({
 })
 const MiniTV = () => {
     return (
-        <div>
+        <div style={{ background: 'black' }}>
             <AppBar position='static'>
                 <AppBarStyle>
                     <img src={minilogo} style={{ width: '15%', marginRight: 30 }} />
@@ -108,7 +107,7 @@ const MiniTV = () => {
                     <div><img src={imgg6} style={{ width: '100%', height: 150 }} /></div>
                     <div><img src={imgg9} style={{ width: '100%', height: 150 }} /></div>
                     <div><img src={imgg5} style={{ width: '100%', height: 150 }} /></div>
-                    <div><img src={imgg6} style={{ width: '100%', height: 150 }} /></div>
+                    <div><img src={imgg8} style={{ width: '100%', height: 150 }} /></div>
                     <div><img src={imgg7} style={{ width: '100%', height: 150 }} /></div>
                 </Carousel>;
 

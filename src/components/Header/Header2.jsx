@@ -225,16 +225,14 @@ const Header2 = () => {
             <ElectronicStyle>
                 <Typography>Electronics</Typography>
             </ElectronicStyle>
-            <PrimeStyle onClick={handleMenuClick}>
-                <>
-                    <Typography>Prime</Typography>
-                    <ArrowDropDownIcon />
-                </>
-                <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
-                    <MenuItem>
-                        <img src={Prime} alt="Image" style={{ maxWidth: '100%', marginTop: '16px' }} />
-                    </MenuItem>
-                </Menu>
+            <PrimeStyle >
+                <NavLink to='/prime' style={{ textDecoration: 'none', color: 'white' }}>
+                    <div style={{ display: 'flex' }}>
+                        <Typography>Prime</Typography>
+                        <ArrowDropDownIcon />
+                    </div>
+
+                </NavLink>
             </PrimeStyle>
         </div >
     )

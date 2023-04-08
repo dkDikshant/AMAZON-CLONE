@@ -42,7 +42,7 @@ const Service = () => {
             <Box style={{ padding: 20 }}>
                 <Typography style={{ fontSize: 15, fontWeight: 700, padding: 20 }}>Some thing you can do here</Typography>
                 <Box style={{ display: 'flex', marginLeft: 60, marginBottom: 20 }}>
-                    <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
+                    <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20, cursor: 'pointer' }}>
                         <Imagestyle src={order} alt="" />
                         <div style={{ marginLeft: 20 }}>
                             <Typography style={{ fontWeight: 900 }}>Your Orders</Typography>
@@ -50,7 +50,7 @@ const Service = () => {
                             <Typography>Edit or cancel orders</Typography>
                         </div>
                     </Box>
-                    <Box style={{ width: '28%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
+                    <Box style={{ width: '28%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20, cursor: 'pointer' }}>
                         <Imagestyle src={retrurn} alt="" />
                         <div style={{ marginLeft: 20 }}>
                             <Typography style={{ fontWeight: 900 }}>Return & Refunds</Typography>
@@ -70,7 +70,7 @@ const Service = () => {
 
 
                 <Box style={{ display: 'flex', marginLeft: 60, marginBottom: 20 }}>
-                    <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
+                    <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20, cursor: 'pointer' }}>
                         <Imagestyle src={Maprime} alt="" />
                         <div style={{ marginLeft: 20 }}>
                             <Typography style={{ fontWeight: 900 }}>Manage Prime</Typography>
@@ -78,7 +78,7 @@ const Service = () => {
                             <Typography>Menbership details</Typography>
                         </div>
                     </Box>
-                    <Box style={{ width: '28%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
+                    <Box style={{ width: '28%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20, cursor: 'pointer' }}>
                         <Imagestyle src={payment} alt="" />
                         <div style={{ marginLeft: 20 }}>
                             <Typography style={{ fontWeight: 900 }}>Payment Setting</Typography>
@@ -96,7 +96,7 @@ const Service = () => {
                     </Box>
                 </Box>
                 <Box style={{ display: 'flex', marginLeft: 60 }}>
-                    <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
+                    <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20, cursor: 'pointer' }}>
                         <Imagestyle src={dig} alt="" />
                         <div style={{ marginLeft: 20 }}>
                             <Typography style={{ fontWeight: 900 }}>Digital Service and digital Support</Typography>
@@ -104,7 +104,7 @@ const Service = () => {
                             <Typography>Troubleshoot device issues</Typography>
                         </div>
                     </Box>
-                    <Box style={{ width: '28%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
+                    <Box style={{ width: '28%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20, cursor: 'pointer' }}>
                         <Imagestyle src={faq} alt="" />
                         <div style={{ marginLeft: 20 }}>
                             <Typography style={{ fontWeight: 900 }}>Amazon & COVID-19</Typography>

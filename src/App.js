@@ -10,6 +10,7 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Sell from './components/sell/Sell';
 import Service from './components/customerserrvice/Service';
 import MiniTV from './components/miniTv/MiniTV';
+import Prime from './components/prime/Prime';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/sell' element={<Sell/>}/>
         <Route path='/service' element={<Service/>}/>
         <Route path='/miniTv' element={<MiniTV/>}/>
+        <Route path='/prime' element={<Prime/>}/>
 
       </Routes>
     </BrowserRouter>
