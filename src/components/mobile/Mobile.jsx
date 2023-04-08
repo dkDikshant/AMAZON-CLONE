@@ -26,6 +26,7 @@ import bb3 from '../../IMAGES/Mobiles/bb3.jpg'
 import bb4 from '../../IMAGES/Mobiles/bb4.jpg'
 import bb5 from '../../IMAGES/Mobiles/bb5.jpg'
 import bb6 from '../../IMAGES/Mobiles/bb6.jpg'
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -63,9 +64,13 @@ const Mobile = () => {
             <HeaderClone />
             <Header2 />
             <Box style={{ display: 'flex', marginTop: 10 }}>
-                <Typography className='text' style={{ marginLeft: 50, marginRight: 50, fontWeight: 700, fontSize: '24px' }}>Smartphones</Typography>
-                <Typography className='text' style={{ marginRight: 50, fontWeight: 700, fontSize: '24px' }}>Accessories</Typography>
-                <Typography className='text' style={{ marginRight: 50, fontWeight: 700, fontSize: '24px' }}>OnePlus Nord CE 3 Lite 5G</Typography>
+                <NavLink to='/mobiles' style={{ textDecoration: 'none', color: 'black' }}>
+                    <Typography className='text' style={{ marginLeft: 50, marginRight: 50, fontWeight: 400, fontSize: '24px' }}>Smartphones</Typography>
+                </NavLink>
+                <Typography className='text' style={{ marginRight: 50, fontWeight: 400, fontSize: '24px' }}>Accessories</Typography>
+                <NavLink to='/oneplus' style={{ textDecoration: 'none', color: 'black' }}>
+                    <Typography className='text' style={{ marginRight: 50, fontWeight: 400, fontSize: '24px' }}>OnePlus Nord CE 3 Lite 5G</Typography>
+                </NavLink>
             </Box>
             <Carousel responsive={responsive}
                 infinite={true}>

@@ -2,10 +2,7 @@
 import './App.css';
 import AccountSignIn from './components/AccountSignIn';
 import Header from './components/Header/Header'
-import Header2 from './components/Header/Header2';
-import ProductsData from './components/ProductsData';
 import Sign from './components/Sign';
-import Slides from './components/Slides';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Sell from './components/sell/Sell';
 import Service from './components/customerserrvice/Service';
@@ -14,6 +11,8 @@ import Prime from './components/prime/Prime';
 import Electronic from './components/electronic/Electronic';
 import Mobile from './components/mobile/Mobile';
 import BestSeller from './components/bestSeller/BestSeller';
+import Oneplus from './components/mobile/Oneplus';
+import Accessories from './components/mobile/Accessories';
 
 
 function App() {
@@ -31,6 +30,8 @@ function App() {
         <Route path='/electronic' element={<Electronic/>}/>
         <Route path='/mobiles' element={<Mobile/>}/>
         <Route path='/best-seller' element={<BestSeller/>}/>
+        <Route path='/oneplus' element={<Oneplus/>}/>
+        <Route path='/accessories' element={<Accessories/>}/>
       </Routes>
     </BrowserRouter>
     </>

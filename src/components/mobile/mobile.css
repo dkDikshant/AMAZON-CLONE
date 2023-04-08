@@ -2,3 +2,18 @@
     text-decoration: underline;
     cursor: pointer;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 500vh;
+  }
+  
+  .left {
+    
+    background-color: #ccc;
+  }
+  
+  .right {
+    
+    background-color: #ddd;
+  }

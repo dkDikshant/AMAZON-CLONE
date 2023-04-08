@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200vh;
+  }
+  
+  .left {
+    flex: 1;
+    background-color: #fff;
+  }
+  
+  .right {
+    flex: 5;
+    background-color: #F4F5F9;
+  }
+  
