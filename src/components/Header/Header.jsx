@@ -155,9 +155,6 @@ const Header = () => {
                                     <MenuItem onClick={handleclose} style={{ width: 250 }}>Bangladesh</MenuItem>
                                     <MenuItem onClick={handleclose} style={{ width: 250 }}>Sri Lanka</MenuItem>
                                 </Menu>
-
-
-
                             </DialogContent>
 
                         </Dialog>
@@ -173,7 +170,7 @@ const Header = () => {
                         <FlagStyle src={Flag} />
                         <h4 style={{ display: 'flex', marginTop: 5 }}>EN <ArrowDropDownIcon /></h4>
                     </FlagBoxStyle>
-                    <NavLink to="/signin">
+                    <NavLink to="/signin" style={{ textDecoration: 'none' }}>
                         <SignStyle >
                             <p style={{ marginTop: 0, marginRight: 20, marginBottom: 0, fontSize: 12, color: 'white' }}>Hello,sign in </p>
                             <p style={{ marginTop: 0, marginRight: 10, marginBottom: 0, fontSize: 12, color: 'white' }}>Account & List<ArrowDropDownIcon style={{ marginLeft: 2, fontSize: 10 }} /></p>
