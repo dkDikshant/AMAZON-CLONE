@@ -95,9 +95,6 @@ const Service = () => {
                         </div>
                     </Box>
                 </Box>
-
-
-
                 <Box style={{ display: 'flex', marginLeft: 60 }}>
                     <Box style={{ width: '25%', display: 'flex', padding: 10, boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px', marginRight: 20 }}>
                         <Imagestyle src={dig} alt="" />

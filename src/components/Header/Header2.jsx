@@ -199,7 +199,9 @@ const Header2 = () => {
                 </Drawer>
             </>
             <MiniTVStyle>
-                <Typography>Amazon MiniTV</Typography>
+                <NavLink to='/miniTv' style={{ textDecoration: 'none', color: 'white' }}>
+                    <Typography>Amazon MiniTV</Typography>
+                </NavLink>
             </MiniTVStyle>
             <SellStyle>
                 <NavLink to='/sell' style={{ textDecoration: 'none', color: 'white' }}>

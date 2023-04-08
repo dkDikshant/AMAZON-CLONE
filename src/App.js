@@ -9,6 +9,7 @@ import Slides from './components/Slides';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Sell from './components/sell/Sell';
 import Service from './components/customerserrvice/Service';
+import MiniTV from './components/miniTv/MiniTV';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Route path='/addaccount' element={<AccountSignIn/>}/>
         <Route path='/sell' element={<Sell/>}/>
         <Route path='/service' element={<Service/>}/>
+        <Route path='/miniTv' element={<MiniTV/>}/>
+
       </Routes>
     </BrowserRouter>
     </>

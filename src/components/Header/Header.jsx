@@ -16,7 +16,8 @@ const HeaderStyle = styled(AppBar)`
     
 `;
 const LogoStyle = styled('img')({
-    width: '6%',
+    width: 70,
+    height: 20,
     cursor: 'pointer'
 })
 const DivOnestyle = styled('div')({
@@ -90,7 +91,9 @@ const Header = () => {
         <div>
             <HeaderStyle position='static'>
                 <Toolbar>
-                    <LogoStyle src={Logo1} style={{ marginLeft: 10 }} />
+                    <NavLink to='/'>
+                        <LogoStyle src={Logo1} style={{ marginLeft: 10 }} />
+                    </NavLink>
                     <DivOnestyle style={{ display: 'flex', marginLeft: 15 }}>
                         <LocationOnIcon style={{ marginTop: 12 }} />
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginTop: 0 }}>
