@@ -67,7 +67,9 @@ const Mobile = () => {
                 <NavLink to='/mobiles' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography className='text' style={{ marginLeft: 50, marginRight: 50, fontWeight: 400, fontSize: '24px' }}>Smartphones</Typography>
                 </NavLink>
-                <Typography className='text' style={{ marginRight: 50, fontWeight: 400, fontSize: '24px' }}>Accessories</Typography>
+                <NavLink to='/accessories' style={{ textDecoration: 'none', color: 'black' }}>
+                    <Typography className='text' style={{ marginRight: 50, fontWeight: 400, fontSize: '24px' }}>Accessories</Typography>
+                </NavLink>
                 <NavLink to='/oneplus' style={{ textDecoration: 'none', color: 'black' }}>
                     <Typography className='text' style={{ marginRight: 50, fontWeight: 400, fontSize: '24px' }}>OnePlus Nord CE 3 Lite 5G</Typography>
                 </NavLink>
