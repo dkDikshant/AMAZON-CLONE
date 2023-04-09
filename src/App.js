@@ -14,6 +14,9 @@ import BestSeller from './components/bestSeller/BestSeller';
 import Oneplus from './components/mobile/Oneplus';
 import Accessories from './components/mobile/Accessories';
 import Todaydeal from './components/todaydeals/Todaydeal';
+import Carouselproducts from './components/carousel/Carouselproducts';
+import Laptop from './components/laptop/Laptop';
+import Gaming from './components/laptop/Gaming';
 
 
 function App() {
@@ -34,6 +37,9 @@ function App() {
         <Route path='/oneplus' element={<Oneplus/>}/>
         <Route path='/accessories' element={<Accessories/>}/>
         <Route path='/today-deals' element={<Todaydeal/>}/>
+        <Route path='/carousel/:id' element={<Carouselproducts/>}/>
+        <Route path='/laptop' element={<Laptop/>}/>
+        <Route path='/Gaming-laptop' element={<Gaming/>}/>
       </Routes>
     </BrowserRouter>
     </>

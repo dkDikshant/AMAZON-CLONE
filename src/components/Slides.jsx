@@ -36,7 +36,8 @@ const responsive = {
 
 const SliderStyle = styled('img')({
     width: '100%',
-    background: 'linear-gradient(to bottom ,transparent,rgba(0,0,0,0.7))'
+    background: 'linear-gradient(to bottom ,transparent,rgba(0,0,0,0.7))',
+    cursor: 'pointer'
 
 })
 const StyledCarousel = styled(Carousel)`
@@ -121,7 +122,9 @@ const Slides = () => {
                     <Typography variant='h5' style={{ padding: 10, fontWeight: 800 }}>
                         Up to 50% off | Monitor blood sugar at home
                     </Typography>
-                    <img src={laptop} style={{ width: '90%', height: '250px', padding: '10px' }} />
+                    <NavLink to='/laptop'>
+                        <img src={laptop} style={{ width: '90%', height: '250px', padding: '10px', cursor: 'pointer' }} />
+                    </NavLink>
                     <a href="#" style={{ textDecoration: 'none', padding: 10 }}>See more </a>
 
                 </InsideBoxStyle>
@@ -134,7 +137,10 @@ const Slides = () => {
 
                     </Box>
                     <Box style={{ marginTop: 30, marginLeft: 10 }}>
-                        <img src={laptop1} style={{ height: 230 }} />
+                        <NavLink to='/laptop'>
+
+                            <img src={laptop1} style={{ height: 230 }} />
+                        </NavLink>
 
                     </Box>
                 </InsideBoxStyle>

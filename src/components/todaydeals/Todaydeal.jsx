@@ -39,7 +39,10 @@ const Todaydeal = () => {
             <Header2 />
             <Typography style={{ fontSize: 25, padding: 15, fontWeight: 700 }}>Today's Deals</Typography>
             <Carousel responsive={responsive} swipeable={false}
-                draggable={false}>
+                draggable={false}
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={2000}>
                 <div>
                     <img src={img1} style={{ width: '80%', padding: 10, cursor: 'pointer' }} />
                 </div>

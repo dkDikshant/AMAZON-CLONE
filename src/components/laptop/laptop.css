@@ -1,7 +1,8 @@
+ 
 .container {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 200vh;
   }
   
   .left-column {
@@ -13,8 +14,8 @@
     width: 85%;
     background-color: #F4F5F9;
   }
-
-.u:hover{
-    text-decoration: underline;
-}
   
+.text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

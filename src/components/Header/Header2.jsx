@@ -216,7 +216,7 @@ const Header2 = () => {
                 </NavLink>
             </BestSellStyle>
             <MobileStyle>
-                <NavLink to='/mobiles' style={{ color: 'white', textDecoration: 'none' }}>
+                <NavLink to='/accessories' style={{ color: 'white', textDecoration: 'none' }}>
                     <Typography>Mobiles</Typography>
                 </NavLink>
             </MobileStyle>
