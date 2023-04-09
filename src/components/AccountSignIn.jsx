@@ -32,7 +32,10 @@ const InputStyle = styled(InputBase)({
 const AccountSignIn = () => {
     return (
         <div>
-            <ImageStyle src={logo1} alt="" />
+            <NavLink to='/'>
+
+                <ImageStyle src={logo1} style={{ cursor: 'pointer' }} />
+            </NavLink>
             <BoxStyle>
                 <h2>Create Account</h2>
                 <Typography>Your Name</Typography>

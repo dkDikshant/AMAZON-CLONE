@@ -1,159 +1,118 @@
 import React from 'react'
 import Header2 from '../Header/Header2'
 import HeaderClone from '../HeaderClone'
-import { Box, Typography } from '@mui/material'
+import { Box, Typography, Button, Checkbox } from '@mui/material'
 import img1 from '../../IMAGES/Electronic/img1.gif'
 import img2 from '../../IMAGES/Electronic/img2.jpg'
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import img3 from '../../IMAGES/Electronic/img3.jpg'
 import img4 from '../../IMAGES/Electronic/img4.jpg'
 import img5 from '../../IMAGES/Electronic/img5.jpg'
 import img6 from '../../IMAGES/Electronic/img6.jpg'
-import img7 from '../../IMAGES/Electronic/img7.jpg'
-import img8 from '../../IMAGES/Electronic/img8.jpg'
-import img9 from '../../IMAGES/Electronic/img9.jpg'
-import img10 from '../../IMAGES/Electronic/img10.jpg'
-import img11 from '../../IMAGES/Electronic/img11.jpg'
-import b1 from '../../IMAGES/Electronic/b1.png'
-import b2 from '../../IMAGES/Electronic/b2.png'
-import b3 from '../../IMAGES/Electronic/b3.png'
-import b4 from '../../IMAGES/Electronic/b4.png'
-import b5 from '../../IMAGES/Electronic/b5.png'
-import b6 from '../../IMAGES/Electronic/b6.png'
-import b7 from '../../IMAGES/Electronic/b7.png'
-import b8 from '../../IMAGES/Electronic/b8.png'
-import b9 from '../../IMAGES/Electronic/b9.png'
-import b10 from '../../IMAGES/Electronic/b10.png'
+import bb11 from '../../IMAGES/Electronic/bb11.jpg'
+import '../electronic/Electronic .css'
+import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
+import DoneIcon from '@mui/icons-material/Done';
 
 
-
-const responsive = {
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 5
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-    }
-};
-
-const responsive1 = {
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 7
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-    }
-};
 const Electronic = () => {
     return (
         <div>
             <HeaderClone />
             <Header2 />
-            <Box style={{ padding: 10 }}>
-                <img src={img1} style={{ width: '100%', cursor: 'pointer' }} />
-                <img src={img2} style={{ width: '100%', cursor: 'pointer' }} />
-                <Carousel responsive={responsive}>
-                    <div>
-                        <img src={img3} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Headphones</Typography>
+            <div className='container'>
+                <div className='left'>
+                    <Box style={{ padding: 10 }}>
+                        <Typography>Category</Typography>
+                        <Box style={{ display: 'flex' }}>
+                            <ArrowLeftIcon />
+                            <Typography>Electronics</Typography>
+                        </Box>
+                        <Typography style={{ fontSize: 14, padding: 5, fontWeight: 900 }}>OnePlus Nord buds 2
+                        </Typography>
+                        <Typography style={{ fontSize: 14, padding: 5 }}>Headphones, Earbuds & Accessories
+                        </Typography>
+                        <Typography style={{ fontWeight: 900 }}>Amazon Prime</Typography>
+                        <Box style={{ display: 'flex' }}>
+                            <Checkbox />
+                            <Box style={{ display: 'flex', marginTop: 10 }}>
+                                <DoneIcon style={{ color: '#F3A155' }} />
+                                <Typography style={{ color: '#2A97C6' }}>Prime</Typography>
+                            </Box>
+                        </Box>
+                        <Typography style={{ fontWeight: 900 }}>Pay on Delivery</Typography>
+                        <Box style={{ display: 'flex' }}>
+                            <Checkbox />
+                            <Box style={{ display: 'flex', marginTop: 10 }}>
+                                <Typography style={{ fontSize: 14 }}>Eligible for pay on Delivery</Typography>
+                            </Box>
+                        </Box>
+                        <Typography style={{ fontWeight: 900 }}>Brand</Typography>
+                        <Box style={{ display: 'flex' }}>
+                            <Checkbox />
+                            <Box style={{ display: 'flex', marginTop: 10 }}>
+                                <Typography style={{ fontSize: 14 }}>Oneplus</Typography>
+                            </Box>
+                        </Box>
+                        <Typography style={{ fontWeight: 900 }}>Discount</Typography>
+                        <Box >
+                            <Box style={{ marginTop: 10 }}>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>10% Off or more</Typography>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>20% Off or more</Typography>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>30% Off or more</Typography>
+                            </Box>
+                        </Box>
+                        <Typography style={{ fontWeight: 900 }}>Price</Typography>
+                        <Box >
+                            <Box style={{ marginTop: 10 }}>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>Under &#x20b9;1000</Typography>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>&#x20b9;1000-&#x20b9;5000</Typography>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>&#x20b9;5000-&#x20b9;10000</Typography>
+                                <Typography style={{ fontSize: 14, marginBottom: 5 }}>&#x20b9;10000-&#x20b9;20000</Typography>
+                            </Box>
+                        </Box>
+                    </Box>
 
-                    </div>
-                    <div>
-                        <img src={img4} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Fitness trackers & smartwatches</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img5} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Computer accessories</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img6} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Pen drives</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img7} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Memory Cards</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img8} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Office products</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img9} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Routing and networking devices</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img10} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Musical instruments</Typography>
-
-                    </div>
-                    <div>
-                        <img src={img11} style={{ width: '100%', cursor: 'pointer' }} />
-                        <Typography style={{ textAlign: 'center', fontWeight: 400, fontSize: '16px' }}>Camera accessories</Typography>
-                    </div>
-                </Carousel>
-
-
-                <Box style={{ marginTop: 50, marginBottom: 50 }}>
-                    <Typography style={{ padding: 20, fontSize: 20, fontWeight: 800, }}>Shop from  your favourite brands</Typography>
-                    <Carousel responsive={responsive1}
-                        infinite={true}>
+                </div>
+                <div className='right'>
+                    <Box style={{ padding: 20 }}>
+                        <img src={img1} style={{ width: 1000 }} />
+                        <img src={img2} style={{ width: 1000 }} />
+                    </Box>
+                    <Box style={{ display: 'flex', padding: 20 }}>
                         <div>
-                            <img src={b1} style={{ width: 130 }} />
+                            <img src={img3} style={{ width: '90%', cursor: 'pointer' }} />
+                            <Typography style={{ textAlign: 'center' }}>Headphones</Typography>
                         </div>
                         <div>
-                            <img src={b2} style={{ width: 130 }} />
+                            <img src={img4} style={{ width: '90%', cursor: 'pointer' }} />
+                            <Typography style={{ textAlign: 'center' }}>Fitness tracker & smartwatch</Typography>
                         </div>
                         <div>
-                            <img src={b3} style={{ width: 130 }} />
+                            <img src={img5} style={{ width: '90%', cursor: 'pointer' }} />
+                            <Typography style={{ textAlign: 'center' }}>Computer accessories</Typography>
                         </div>
                         <div>
-                            <img src={b4} style={{ width: 130 }} />
+                            <img src={img6} style={{ width: '90%', cursor: 'pointer' }} />
+                            <Typography style={{ textAlign: 'center' }}>pendrive</Typography>
                         </div>
-                        <div>
-                            <img src={b5} style={{ width: 130 }} />
-                        </div>
-                        <div>
-                            <img src={b6} style={{ width: 130 }} />
-                        </div>
-                        <div>
-                            <img src={b7} style={{ width: 130 }} />
-                        </div>
-                        <div>
-                            <img src={b8} style={{ width: 130 }} />
-                        </div>
-                        <div>
-                            <img src={b9} style={{ width: 130 }} />
-                        </div>
-                        <div>
-                            <img src={b10} style={{ width: 130 }} />
-                        </div>
+                    </Box>
+                    <Typography style={{ textAlign: 'center', marginTop: 50, fontSize: 40 }}>Handpicked collection for you</Typography>
+                    <Box>
+                        <Button style={{ width: '20%', height: 60, boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px', marginRight: 30, color: 'black', marginTop: 20, marginLeft: 50 }}>Under &#x20B9;99</Button>
+                        <Button style={{ width: '20%', height: 60, boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px', marginRight: 30, color: 'black', marginTop: 20 }}>Under &#x20B9;299</Button>
+                        <Button style={{ width: '20%', height: 60, boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px', marginRight: 30, color: 'black', marginTop: 20 }}>Under &#x20B9;499</Button>
+                        <Button style={{ width: '20%', height: 60, boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px', marginRight: 30, color: 'black', marginTop: 20 }}>Under &#x20B9;999</Button>
+                    </Box>
+                    <Box>
+                        <img src={bb11} style={{ width: '90%', marginBottom: 50, padding: 20 }} />
 
-                    </Carousel>
+                    </Box>
 
+                </div>
 
-
-                </Box>
-            </Box>
+            </div>
         </div>
     )
 }

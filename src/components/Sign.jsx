@@ -32,7 +32,10 @@ const InputStyle = styled(InputBase)({
 const Sign = () => {
     return (
         <div >
-            <ImageStyle src={logo1} alt="" />
+            <NavLink to='/'>
+
+                <ImageStyle src={logo1} style={{ cursor: 'pointer' }} />
+            </NavLink>
             <BoxStyle>
                 <Typography style={{ padding: 15, fontSize: 30 }}>Sign In</Typography>
                 <Box style={{ padding: 10 }}>

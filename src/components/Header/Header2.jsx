@@ -138,10 +138,12 @@ const Header2 = () => {
                         <Box style={{ padding: 10 }}>
                             <ListItem onClick={toggleDrawer(false)} style={{ cursor: 'pointer', background: '#232F3E', marginTop: 0, fontWeight: 500 }}>
                                 <ListItemText  >
-                                    <Box style={{ display: 'flex' }}>
-                                        <AccountCircleIcon style={{ fontSize: 30 }} />
-                                        <Typography variant='h6'>&nbsp;Hello, Sign In</Typography>
-                                    </Box>
+                                    <NavLink to='/signin' style={{ textDecoration: 'none', color: 'white' }}>
+                                        <Box style={{ display: 'flex' }}>
+                                            <AccountCircleIcon style={{ fontSize: 30 }} />
+                                            <Typography variant='h6'>&nbsp;Hello, Sign In</Typography>
+                                        </Box>
+                                    </NavLink>
                                 </ListItemText>
                             </ListItem>
                             <ListItem onClick={toggleDrawer(false)}>
