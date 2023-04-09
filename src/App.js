@@ -13,6 +13,7 @@ import Mobile from './components/mobile/Mobile';
 import BestSeller from './components/bestSeller/BestSeller';
 import Oneplus from './components/mobile/Oneplus';
 import Accessories from './components/mobile/Accessories';
+import Todaydeal from './components/todaydeals/Todaydeal';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/best-seller' element={<BestSeller/>}/>
         <Route path='/oneplus' element={<Oneplus/>}/>
         <Route path='/accessories' element={<Accessories/>}/>
+        <Route path='/today-deals' element={<Todaydeal/>}/>
       </Routes>
     </BrowserRouter>
     </>

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .left-column {
+    width: 20%;
+    background-color: #fff;
+  }
+  
+  .right-column {
+    width: 80%;
+    background-color: #F4F5F9;
+  }
+  

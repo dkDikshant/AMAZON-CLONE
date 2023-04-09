@@ -221,7 +221,9 @@ const Header2 = () => {
                 </NavLink>
             </MobileStyle>
             <TodaysStyle>
-                <Typography>Today's Deals</Typography>
+                <NavLink to='/today-deals' style={{ textDecoration: 'none', color: 'white' }}>
+                    <Typography>Today's Deals</Typography>
+                </NavLink>
             </TodaysStyle>
             <CustomerStyle>
                 <NavLink to='/service' style={{ textDecoration: 'none', color: 'white' }}>
