@@ -148,51 +148,61 @@ const Header2 = () => {
                             </ListItem>
                             <ListItem onClick={toggleDrawer(false)}>
                                 <ListItemText style={{ color: 'black', cursor: 'pointer' }}>
-                                    <Typography variant='h6' style={{ fontWeight: 700 }}>Trending</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Best Seller</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>New Releases</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Movers ans Shakers</Typography>
-                                    <hr />
+                                    <NavLink to='/best-seller' style={{ textDecoration: 'none', color: 'black' }}>
+                                        <Typography variant='h6' style={{ fontWeight: 700 }}>Trending</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Best Seller</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>New Releases</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Movers ans Shakers</Typography>
+                                        <hr />
+                                    </NavLink>
                                 </ListItemText>
                             </ListItem>
                             <ListItem onClick={toggleDrawer(false)}>
                                 <ListItemText style={{ color: 'black', cursor: 'pointer' }}>
-                                    <Typography variant='h6' style={{ fontWeight: 700 }}>Digital Content And Devices</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Amazon miniTV-FREE entertaiment</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Echo & Alexa</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Fire Tv</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Kindle E-Readers & eBooks</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Audible Audiobooks</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Amazon Prime Video</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Amazon Prime Music</Typography>
-                                    <hr />
+                                    <NavLink to='/miniTv' style={{ textDecoration: 'none', color: 'black' }}>
+                                        <Typography variant='h6' style={{ fontWeight: 700 }}>Digital Content And Devices</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Amazon miniTV-FREE entertaiment</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Echo & Alexa</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Fire Tv</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Kindle E-Readers & eBooks</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Audible Audiobooks</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Amazon Prime Video</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Amazon Prime Music</Typography>
+                                        <hr />
+                                    </NavLink>
                                 </ListItemText>
                             </ListItem>
                             <ListItem onClick={toggleDrawer(false)}>
                                 <ListItemText style={{ color: 'black', cursor: 'pointer' }}>
-                                    <Typography variant='h6' style={{ fontWeight: 700 }}>Shop By Category</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Mobiles ,Computers</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Tv,Appilances,Electronics</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Men's Fashion</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Women's Fashion</Typography>
-                                    <hr />
+                                    <NavLink to='/electronic' style={{ textDecoration: 'none', color: 'black' }}>
+                                        <Typography variant='h6' style={{ fontWeight: 700 }}>Shop By Category</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Mobiles ,Computers</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Tv,Appilances,Electronics</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Men's Fashion</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Women's Fashion</Typography>
+                                        <hr />
+                                    </NavLink>
                                 </ListItemText>
                             </ListItem>
                             <ListItem onClick={toggleDrawer(false)}>
                                 <ListItemText style={{ color: 'black', cursor: 'pointer' }}>
-                                    <Typography variant='h6' style={{ fontWeight: 700 }}>Programs & Features</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Gift Card's & Mobile Recharges</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Flight Tickets</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Clearance Store</Typography>
-                                    <hr />
+                                    <NavLink to='/today-deals' style={{ textDecoration: 'none', color: 'black' }}>
+                                        <Typography variant='h6' style={{ fontWeight: 700 }}>Programs & Features</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Gift Card's & Mobile Recharges</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Flight Tickets</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Clearance Store</Typography>
+                                        <hr />
+                                    </NavLink>
                                 </ListItemText>
                             </ListItem>
                             <ListItem onClick={toggleDrawer(false)}>
                                 <ListItemText style={{ color: 'black', cursor: 'pointer' }}>
-                                    <Typography variant='h6' style={{ fontWeight: 700 }}>Help & Setting</Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Customers's Service </Typography>
-                                    <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Sign in</Typography>
-                                    <hr />
+                                    <NavLink to='/service' style={{ textDecoration: 'none', color: 'black' }}>
+                                        <Typography variant='h6' style={{ fontWeight: 700 }}>Help & Setting</Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15, marginTop: 10 }}>Customers's Service </Typography>
+                                        <Typography variant='h5' style={{ fontSize: 14, fontWeight: 400, marginBottom: 15 }}>Sign in</Typography>
+                                        <hr />
+                                    </NavLink>
                                 </ListItemText>
                             </ListItem>
 
