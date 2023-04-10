@@ -89,8 +89,10 @@ const Electronic = () => {
                             </NavLink>
                         </div>
                         <div>
-                            <img src={img4} style={{ width: '90%', cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Fitness tracker & smartwatch</Typography>
+                            <NavLink to='/electronic-smartwatch' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img4} style={{ width: '90%', cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Fitness tracker & smartwatch</Typography>
+                            </NavLink>
                         </div>
                         <div>
                             <img src={img5} style={{ width: '90%', cursor: 'pointer' }} />

@@ -23,6 +23,7 @@ import LaptopProductsHp from './components/products/LaptopProductsHp';
 import LaptopProductsHpintel from './components/products/LaptopProductsHpintel'
 import LaptopProductsHpintellow from './components/products/LaptopProductsHpintellow';
 import Headphones from './components/products/Headphones';
+import Smartwatch from './components/products/Smartwatch';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Route path='/lapotp-products-hp15s-intel' element={<LaptopProductsHpintel/>}/>
         <Route path='/lapotp-products-hp15s-intel-Athlon Silver' element={<LaptopProductsHpintellow/>}/>
         <Route path='/electronic-headphones' element={<Headphones/>}/>
+        <Route path='/electronic-smartwatch' element={<Smartwatch/>}/>
       </Routes>
     </BrowserRouter>
     </>
