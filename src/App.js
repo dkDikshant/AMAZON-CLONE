@@ -17,6 +17,7 @@ import Todaydeal from './components/todaydeals/Todaydeal';
 import Carouselproducts from './components/carousel/Carouselproducts';
 import Laptop from './components/laptop/Laptop';
 import Gaming from './components/laptop/Gaming';
+import LaptopProducts from './components/products/LaptopProducts';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route path='/carousel/:id' element={<Carouselproducts/>}/>
         <Route path='/laptop' element={<Laptop/>}/>
         <Route path='/Gaming-laptop' element={<Gaming/>}/>
+        <Route path='/lapotp-products' element={<LaptopProducts/>}/>
       </Routes>
     </BrowserRouter>
     </>

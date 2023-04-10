@@ -14,6 +14,7 @@ import img33 from '../../IMAGES/laptop/img3.gif'
 import { NavLink } from 'react-router-dom';
 
 
+
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -110,8 +111,11 @@ const Laptop = () => {
                             <Typography className='text' style={{ fontSize: 30, fontWeight: 600, padding: 10 }}>Gaming Laptops</Typography>
                         </NavLink>
                     </Box>
-                    <img src={img1} style={{ width: '95%', padding: 20 }} />
-                    <img src={img2} style={{ width: '95%', padding: 20, paddingTop: 0 }} />
+                    <NavLink to='/lapotp-products'>
+
+                        <img src={img1} style={{ width: '95%', padding: 20, cursor: 'pointer' }} />
+                        <img src={img2} style={{ width: '95%', padding: 20, paddingTop: 0, cursor: 'pointer' }} />
+                    </NavLink>
                     <img src={img33} style={{ width: '95%', padding: 20, paddingTop: 0 }} />
 
 
