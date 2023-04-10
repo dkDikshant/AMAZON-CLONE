@@ -16,9 +16,6 @@ const images = [
     {
         original: img4,
         thumbnail: o3,
-
-
-
     },
     {
         original: th1,

@@ -111,8 +111,11 @@ const Gaming = () => {
                             <Typography className='text' style={{ fontSize: 30, fontWeight: 600, padding: 10 }}>Gaming Laptops</Typography>
                         </NavLink>
                     </Box>
-                    <img src={gimg1} style={{ width: '95%', padding: 15 }} />
-                    <img src={gimg2} style={{ width: '95%', padding: 15, paddingTop: 0 }} />
+                    <NavLink to='/lapotp-products' >
+
+                        <img src={gimg1} style={{ width: '95%', padding: 15 }} />
+                        <img src={gimg2} style={{ width: '95%', padding: 15, paddingTop: 0 }} />
+                    </NavLink>
                     <Carousel responsive={responsive}
                         infinite={true}
                         autoPlay={true}

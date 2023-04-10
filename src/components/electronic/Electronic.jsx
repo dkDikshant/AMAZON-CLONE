@@ -14,6 +14,7 @@ import bb11 from '../../IMAGES/Electronic/bb11.jpg'
 import '../electronic/Electronic .css'
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import DoneIcon from '@mui/icons-material/Done';
+import { NavLink } from 'react-router-dom'
 
 
 const Electronic = () => {
@@ -82,8 +83,10 @@ const Electronic = () => {
                     </Box>
                     <Box style={{ display: 'flex', padding: 20 }}>
                         <div>
-                            <img src={img3} style={{ width: '90%', cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Headphones</Typography>
+                            <NavLink to='/electronic-headphones' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img3} style={{ width: '90%', cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Headphones</Typography>
+                            </NavLink>
                         </div>
                         <div>
                             <img src={img4} style={{ width: '90%', cursor: 'pointer' }} />

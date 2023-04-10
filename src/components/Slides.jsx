@@ -122,10 +122,10 @@ const Slides = () => {
                     <Typography variant='h5' style={{ padding: 10, fontWeight: 800 }}>
                         Up to 50% off | Monitor blood sugar at home
                     </Typography>
-                    <NavLink to='/laptop'>
+                    <NavLink to='/laptop' style={{ textDecoration: 'none' }}>
                         <img src={laptop} style={{ width: '90%', height: '250px', padding: '10px', cursor: 'pointer' }} />
+                        <a href="#" style={{ textDecoration: 'none', padding: 10 }}>See more </a>
                     </NavLink>
-                    <a href="#" style={{ textDecoration: 'none', padding: 10 }}>See more </a>
 
                 </InsideBoxStyle>
                 <InsideBoxStyle style={{ marginLeft: '10px' }}>
