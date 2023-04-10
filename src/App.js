@@ -29,6 +29,7 @@ import Pendrive from './components/products/Pendrive';
 import Bag from './components/products/Bag';
 import Pharmacy from './components/products/Pharmacy';
 import Clovia from './components/products/Clovia';
+import Enamor from './components/products/Enamor';
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
         <Route path='/today-deals-bag' element={<Bag/>}/>
         <Route path='/pharmacy' element={<Pharmacy/>}/>
         <Route path='/clovia' element={<Clovia/>}/>
+        <Route path='/enamor' element={<Enamor/>}/>
       </Routes>
     </BrowserRouter>
     </>

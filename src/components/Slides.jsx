@@ -107,8 +107,10 @@ const Slides = () => {
                             </NavLink>
                         </Box>
                         <Box style={{ width: 130, height: 150, padding: 5, marginRight: 10 }}>
-                            <img src={img2} style={{ width: 130, height: 100 }} />
-                            <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 750</p>
+                            <NavLink to='/enamor' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img2} style={{ width: 130, height: 100 }} />
+                                <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 750</p>
+                            </NavLink>
                         </Box>
                     </Box>
                     <Box style={{ display: 'flex' }}>
