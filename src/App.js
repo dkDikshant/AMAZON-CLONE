@@ -31,6 +31,7 @@ import Pharmacy from './components/products/Pharmacy';
 import Clovia from './components/products/Clovia';
 import Enamor from './components/products/Enamor';
 import Zivame from './components/products/Zivame';
+import Nykaa from './components/products/Nykaa';
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
         <Route path='/clovia' element={<Clovia/>}/>
         <Route path='/enamor' element={<Enamor/>}/>
         <Route path='/zivame' element={<Zivame/>}/>
+        <Route path='/nykaa' element={<Nykaa/>}/>
       </Routes>
     </BrowserRouter>
     </>

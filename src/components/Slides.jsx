@@ -121,8 +121,10 @@ const Slides = () => {
                             </NavLink>
                         </Box>
                         <Box style={{ width: 130, height: 150, padding: 5, marginRight: 10 }}>
-                            <img src={img4} style={{ width: 130, height: 100 }} />
-                            <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 799</p>
+                            <NavLink to='/nykaa' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img4} style={{ width: 130, height: 100 }} />
+                                <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 799</p>
+                            </NavLink>
                         </Box>
                     </Box>
                 </InsideBoxStyle>
