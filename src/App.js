@@ -26,6 +26,7 @@ import Headphones from './components/products/Headphones';
 import Smartwatch from './components/products/Smartwatch';
 import Keyboard from './components/products/Keyboard';
 import Pendrive from './components/products/Pendrive';
+import Bag from './components/products/Bag';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
         <Route path='/electronic-smartwatch' element={<Smartwatch/>}/>
         <Route path='/electronic-keyboard' element={<Keyboard/>}/>
         <Route path='/electronic-pendrive' element={<Pendrive/>}/>
+        <Route path='/today-deals-bag' element={<Bag/>}/>
       </Routes>
     </BrowserRouter>
     </>

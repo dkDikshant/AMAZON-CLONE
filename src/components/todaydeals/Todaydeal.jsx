@@ -18,6 +18,7 @@ import img10 from '../../IMAGES/todaydeals/img10.jpg'
 import bb1 from '../../IMAGES/todaydeals/bb1.jpg'
 import bb2 from '../../IMAGES/todaydeals/bb2.jpg'
 import bb3 from '../../IMAGES/todaydeals/bb3.jpg'
+import { NavLink } from 'react-router-dom'
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -95,42 +96,30 @@ const Todaydeal = () => {
                 <div className="right-column">
                     <Box style={{ display: 'flex', padding: 10 }}>
                         <Box style={{ background: 'white', width: 500, height: 370, border: '2px solid black', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', paddingRight: 10, paddingLeft: 20, paddingTop: 10 }}>
-                            <img src={bb1} style={{ width: '50%' }} />
-                            <br />
-                            <Button style={{ background: 'red', color: 'white', fontSize: 12 }}>Up to 74% Off</Button>
-                            <Typography>Branded Suticase,backpacks and Duffles-American Tourister,Safari,etc</Typography>
+                            <NavLink to='/today-deals-bag' style={{ textDecoration: 'none' }}>
+                                <img src={bb1} style={{ width: '50%' }} />
+                                <br />
+                                <Button style={{ background: 'red', color: 'white', fontSize: 12 }}>Up to 74% Off</Button>
+                                <Typography style={{ color: 'black' }}>Branded Suticase,backpacks and Duffles-American Tourister,Safari,etc</Typography>
+                            </NavLink>
                         </Box>
                         <Box style={{ background: 'white', width: 500, height: 370, border: '2px solid black', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', paddingRight: 10, paddingLeft: 20, paddingTop: 10 }}>
-                            <img src={bb2} style={{ width: '80%' }} />
-                            <Button style={{ background: 'red', color: 'white', fontSize: 12, marginTop: 60 }}>Up to 70% Off</Button>
-                            <Typography style={{ marginTop: 10 }}>BestSelling JBL Wireless Earbuds & Speakers</Typography>
+                            <NavLink to='/electronic-headphones' style={{ textDecoration: 'none' }}>
+                                <img src={bb2} style={{ width: '80%' }} />
+                                <Button style={{ background: 'red', color: 'white', fontSize: 12, marginTop: 60 }}>Up to 70% Off</Button>
+                                <Typography style={{ marginTop: 10, color: 'black' }}>BestSelling JBL Wireless Earbuds & Speakers</Typography>
+                            </NavLink>
                         </Box>
                         <Box style={{ background: 'white', width: 500, height: 370, border: '2px solid black', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', paddingRight: 10, paddingLeft: 20, paddingTop: 10 }}>
-                            <img src={bb3} style={{ width: '80%' }} />
-                            <Button style={{ background: 'red', color: 'white', fontSize: 12, marginTop: 20 }}>Up to 73% Off</Button>
-                            <Typography style={{ marginTop: 10 }}>Carzy Dealson boAt headpjones and Speakers</Typography>
+                            <NavLink to='/electronic-headphones' style={{ textDecoration: 'none' }}>
+                                <img src={bb3} style={{ width: '80%' }} />
+                                <Button style={{ background: 'red', color: 'white', fontSize: 12, marginTop: 20 }}>Up to 73% Off</Button>
+                                <Typography style={{ marginTop: 10, color: 'black' }}>Carzy Dealson boAt headpjones and Speakers</Typography>
+                            </NavLink>
                         </Box>
 
                     </Box>
-                    <Box style={{ display: 'flex', padding: 10 }}>
-                        <Box style={{ background: 'white', width: 500, height: 370, border: '2px solid black', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', paddingRight: 10, paddingLeft: 20, paddingTop: 10 }}>
-                            <img src={bb1} style={{ width: '50%' }} />
-                            <br />
-                            <Button style={{ background: 'red', color: 'white', fontSize: 12 }}>Up to 74% Off</Button>
-                            <Typography>Branded Suticase,backpacks and Duffles-American Tourister,Safari,etc</Typography>
-                        </Box>
-                        <Box style={{ background: 'white', width: 500, height: 370, border: '2px solid black', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', paddingRight: 10, paddingLeft: 20, paddingTop: 10 }}>
-                            <img src={bb2} style={{ width: '80%' }} />
-                            <Button style={{ background: 'red', color: 'white', fontSize: 12, marginTop: 60 }}>Up to 70% Off</Button>
-                            <Typography style={{ marginTop: 10 }}>BestSelling JBL Wireless Earbuds & Speakers</Typography>
-                        </Box>
-                        <Box style={{ background: 'white', width: 500, height: 370, border: '2px solid black', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px', paddingRight: 10, paddingLeft: 20, paddingTop: 10 }}>
-                            <img src={bb3} style={{ width: '80%' }} />
-                            <Button style={{ background: 'red', color: 'white', fontSize: 12, marginTop: 20 }}>Up to 73% Off</Button>
-                            <Typography style={{ marginTop: 10 }}>Carzy Dealson boAt headpjones and Speakers</Typography>
-                        </Box>
 
-                    </Box>
 
                 </div>
             </div>
