@@ -13,7 +13,6 @@ import img4 from '../../IMAGES/Mobiles/Accessories/img4.jpg'
 import img5 from '../../IMAGES/Mobiles/Accessories/img5.jpg'
 import img6 from '../../IMAGES/Mobiles/Accessories/img6.jpg'
 import img7 from '../../IMAGES/Mobiles/Accessories/img7.jpg'
-
 import bb1 from '../../IMAGES/Mobiles/Accessories/bb1.gif'
 import bb2 from '../../IMAGES/Mobiles/Accessories/bb2.gif'
 import bb3 from '../../IMAGES/Mobiles/Accessories/bb3.gif'
@@ -90,51 +89,76 @@ const Accessories = () => {
                     </Box>
                     <Box style={{ display: 'flex', marginBottom: 20, marginTop: 10 }}>
                         <Box>
-                            <img src={img1} style={{ cursor: 'pointer', width: 150, marginRight: 20, marginLeft: 10 }} />
-                            <Typography style={{ marginLeft: 15 }}>Power banks</Typography>
+                            <NavLink to='/electronic-keyboard' style={{ textDecoration: 'none' }}>
+                                <img src={img1} style={{ cursor: 'pointer', width: 150, marginRight: 20, marginLeft: 10 }} />
+                                <Typography style={{ marginLeft: 15, color: 'black' }}>Power banks</Typography>
+                            </NavLink>
                         </Box>
                         <Box>
-                            <img src={img2} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
-                            <Typography>Headsets</Typography>
+                            <NavLink to='/electronic-headphones' style={{ textDecoration: 'none', color: ';black' }}>
+                                <img src={img2} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
+                                <Typography style={{ color: 'black' }}>Headsets</Typography>
+                            </NavLink>
                         </Box>
                         <Box>
-                            <img src={img3} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
-                            <Typography>Cases & covers</Typography>
+                            <NavLink to='/electronic-smartwatch' style={{ textDecoration: 'none' }}>
+
+                                <img src={img3} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
+                                <Typography style={{ color: 'black' }}>Cases & covers</Typography>
+                            </NavLink>
                         </Box>
                         <Box>
-                            <img src={img4} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
-                            <Typography>Screen Protector</Typography>
+                            <NavLink to='/electronic-smartwatch' style={{ textDecoration: 'none' }}>
+                                <img src={img4} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
+                                <Typography style={{ color: 'black' }}>Screen Protector</Typography>
+                            </NavLink>
                         </Box>
                         <Box>
-                            <img src={img5} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
-                            <Typography>cables & charger</Typography>
+                            <NavLink to='/electronic-keyboard' style={{ textDecoration: 'none' }}>
+
+                                <img src={img5} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
+                                <Typography style={{ color: 'black' }}>cables & charger</Typography>
+                            </NavLink>
                         </Box>
                         <Box>
-                            <img src={img6} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
-                            <Typography>Mobile-holder & more</Typography>
+                            <NavLink to='/electronic-keyboard' style={{ textDecoration: 'none' }}>
+
+                                <img src={img6} style={{ cursor: 'pointer', width: 150, marginRight: 20 }} />
+                                <Typography style={{ color: 'black' }}>Mobile-holder & more</Typography>
+                            </NavLink>
                         </Box>
                     </Box>
                     <Box style={{ width: '95%', height: 380, background: 'white', margin: 20 }}>
                         <Box style={{ display: 'flex' }}>
                             <Box>
-                                <img src={bb1} style={{ width: '85%', padding: 20 }} />
-                                <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                <NavLink to='/electronic-headphones' style={{ textDecoration: 'none', color: 'black' }}>
+                                    <img src={bb1} style={{ width: '85%', padding: 20 }} />
+                                    <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                </NavLink>
                             </Box>
                             <Box>
-                                <img src={bb2} style={{ width: '85%', padding: 20 }} />
-                                <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                <NavLink to='/best-seller' style={{ textDecoration: 'none', color: 'black' }}>
+                                    <img src={bb2} style={{ width: '85%', padding: 20 }} />
+                                    <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                </NavLink>
                             </Box>
                             <Box>
-                                <img src={bb3} style={{ width: '85%', padding: 20 }} />
-                                <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                <NavLink to='/miniTv' style={{ textDecoration: 'none', color: 'black' }}>
+                                    <img src={bb3} style={{ width: '85%', padding: 20 }} />
+                                    <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                </NavLink>
                             </Box>
                             <Box>
-                                <img src={bb4} style={{ width: '85%', padding: 20 }} />
-                                <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                <NavLink to='/service' style={{ textDecoration: 'none', color: 'black' }}>
+                                    <img src={bb4} style={{ width: '85%', padding: 20 }} />
+                                    <Typography style={{ textAlign: 'center' }}>Show Now</Typography>
+                                </NavLink>
                             </Box>
                         </Box>
                     </Box>
-                    <img src={img7} style={{ width: '100%' }} />
+                    <NavLink to='/electronic-headphones'>
+                        <img src={img7} style={{ width: '100%' }} />
+                    </NavLink>
 
                 </div>
             </div >

@@ -80,7 +80,9 @@ const Oneplus = () => {
                         </NavLink>
                     </Box>
                     <img src={img1} style={{ width: '90%', paddingLeft: 50, paddingTop: 30 }} />
-                    <Button variant='contained' style={{ background: 'red', fontSize: 15, marginLeft: '45%' }}>Notify Me</Button>
+                    <NavLink to='/electronic-headphones' style={{ textDecoration: 'none', color: 'white' }}>
+                        <Button variant='contained' style={{ background: 'red', fontSize: 15, marginLeft: '45%' }}>Notify Me</Button>
+                    </NavLink>
                     <Box>
                         <img src={img2} style={{ width: '100%' }} />
 
