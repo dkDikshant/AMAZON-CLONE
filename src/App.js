@@ -28,6 +28,7 @@ import Keyboard from './components/products/Keyboard';
 import Pendrive from './components/products/Pendrive';
 import Bag from './components/products/Bag';
 import Pharmacy from './components/products/Pharmacy';
+import Clovia from './components/products/Clovia';
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
         <Route path='/electronic-pendrive' element={<Pendrive/>}/>
         <Route path='/today-deals-bag' element={<Bag/>}/>
         <Route path='/pharmacy' element={<Pharmacy/>}/>
+        <Route path='/clovia' element={<Clovia/>}/>
       </Routes>
     </BrowserRouter>
     </>

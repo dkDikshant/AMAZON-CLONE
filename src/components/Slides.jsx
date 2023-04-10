@@ -101,8 +101,10 @@ const Slides = () => {
                     </Typography>
                     <Box style={{ display: 'flex' }}>
                         <Box style={{ width: 130, height: 150, padding: 5, marginLeft: 10 }}>
-                            <img src={img1} style={{ width: 130, height: 100, marginBottom: 0, paddingBottom: 0 }} />
-                            <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 1799</p>
+                            <NavLink to='/clovia' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img1} style={{ width: 130, height: 100, marginBottom: 0, paddingBottom: 0 }} />
+                                <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 1799</p>
+                            </NavLink>
                         </Box>
                         <Box style={{ width: 130, height: 150, padding: 5, marginRight: 10 }}>
                             <img src={img2} style={{ width: 130, height: 100 }} />
