@@ -33,6 +33,7 @@ import Enamor from './components/products/Enamor';
 import Zivame from './components/products/Zivame';
 import Nykaa from './components/products/Nykaa';
 import SonyPS5 from './components/products/SonyPS5';
+import Sonyplaystation2000 from './components/products/Sonyplaystation2000';
 
 
 function App() {
@@ -72,6 +73,7 @@ function App() {
         <Route path='/zivame' element={<Zivame/>}/>
         <Route path='/nykaa' element={<Nykaa/>}/>
         <Route path='/best-seller-SonyPS5' element={<SonyPS5/>}/>
+        <Route path='/best-seller-Sonyplaystation' element={<Sonyplaystation2000/>}/>
       </Routes>
     </BrowserRouter>
     </>

@@ -81,48 +81,60 @@ const BestSeller = () => {
                             </NavLink>
                         </div>
                         <div>
-                            <img src={img2} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Rs.2000 Sony PlayStation Network</Typography>
-                            <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                            </Box>
+                            <NavLink to='/best-seller-Sonyplaystation' style={{ textDecoration: 'none', color: 'black' }}>
+
+                                <img src={img2} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Rs.2000 Sony PlayStation Network</Typography>
+                                <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                </Box>
+                            </NavLink>
                         </div>
                         <div>
-                            <img src={img3} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Rs.1500 Sony PlayStation Network</Typography>
-                            <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                            </Box>
+                            <NavLink to='/best-seller-Sonyplaystation' style={{ textDecoration: 'none', color: 'black' }}>
+
+                                <img src={img3} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Rs.1500 Sony PlayStation Network</Typography>
+                                <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                </Box>
+                            </NavLink>
                         </div>
                         <div>
-                            <img src={img4} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Sony PS5 Digital standalone</Typography>
-                            <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                            </Box>
+                            <NavLink to='/best-seller-SonyPS5' style={{ textDecoration: 'none', color: 'black' }}>
+
+                                <img src={img4} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Sony PS5 Digital standalone</Typography>
+                                <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                </Box>
+                            </NavLink>
                         </div>
                         <div>
-                            <img src={img5} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Rs.2000 Sony PlayStation Network</Typography>
-                            <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                            </Box>
+                            <NavLink to='/best-seller-Sonyplaystation' style={{ textDecoration: 'none', color: 'black' }}>
+
+                                <img src={img5} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Rs.2000 Sony PlayStation Network</Typography>
+                                <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                </Box>
+                            </NavLink>
                         </div>
                     </Carousel>
 
