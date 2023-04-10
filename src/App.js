@@ -19,6 +19,7 @@ import Laptop from './components/laptop/Laptop';
 import Gaming from './components/laptop/Gaming';
 import LaptopProducts from './components/products/LaptopProducts';
 import LaptopProductsAcer from './components/products/LaptopProductsAcer';
+import LaptopProductsHp from './components/products/LaptopProductsHp';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path='/Gaming-laptop' element={<Gaming/>}/>
         <Route path='/lapotp-products' element={<LaptopProducts/>}/>
         <Route path='/lapotp-products-acer' element={<LaptopProductsAcer/>}/>
+        <Route path='/lapotp-products-hp15s-AMD' element={<LaptopProductsHp/>}/>
       </Routes>
     </BrowserRouter>
     </>

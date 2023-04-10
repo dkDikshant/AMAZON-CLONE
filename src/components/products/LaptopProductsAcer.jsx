@@ -11,7 +11,7 @@ import thu2 from '../../IMAGES/products/laptop/thu2.jpg'
 import thu3 from '../../IMAGES/products/laptop/thu3.jpg'
 import '../products/Laptop.css'
 import { Typography, Box, Button } from '@mui/material';
-import { red } from '@mui/material/colors';
+
 
 
 const images = [
