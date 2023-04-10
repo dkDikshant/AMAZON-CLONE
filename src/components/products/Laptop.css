@@ -1,0 +1,35 @@
+.image-display {
+    display: flex;
+    align-items: center;
+  }
+  
+  .small-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .large-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ImageGalleryContainer {
+    width: 50%;
+  }
+  
+  .TextContainer {
+    width: 50%;
+  }
+  

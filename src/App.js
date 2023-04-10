@@ -18,6 +18,7 @@ import Carouselproducts from './components/carousel/Carouselproducts';
 import Laptop from './components/laptop/Laptop';
 import Gaming from './components/laptop/Gaming';
 import LaptopProducts from './components/products/LaptopProducts';
+import LaptopProductsAcer from './components/products/LaptopProductsAcer';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route path='/laptop' element={<Laptop/>}/>
         <Route path='/Gaming-laptop' element={<Gaming/>}/>
         <Route path='/lapotp-products' element={<LaptopProducts/>}/>
+        <Route path='/lapotp-products-acer' element={<LaptopProductsAcer/>}/>
       </Routes>
     </BrowserRouter>
     </>
