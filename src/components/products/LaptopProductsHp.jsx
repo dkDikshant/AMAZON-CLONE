@@ -47,6 +47,7 @@ const LaptopProductsHp = () => {
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>HP 15s, AMD Ryzen 3 5300U, 15.6 inch(39.6cm) FHD Anti-Glare Laptop(8GB RAM/512 GB SSD/AMD Radeon Graphics/Win 11/MSO/Backlit Keyboard/Dual Speakers) 15s- eq2213AU</Typography>
                     <Typography style={{ color: '#0071A5', cursor: 'pointer' }}>Visit the Hp Store</Typography>
+                    <Typography style={{ fontWeight: 400, fontSize: '28px' }}>&#x20b9;39,999</Typography>
                     <Box>
                         <Box style={{ display: 'flex', paddingTop: 10, paddingBottom: 2 }}>
                             <Typography style={{ fontWeight: 700, fontSize: '14px', marginRight: 20 }}>Brand</Typography>

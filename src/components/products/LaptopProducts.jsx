@@ -122,38 +122,42 @@ const LaptopProducts = () => {
                         </Box>
                     </NavLink>
 
-
-                    <Box style={{ width: '98%', background: 'white', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px', height: 230, padding: 10, display: 'flex', marginBottom: 20 }}>
-                        <img src={img3} style={{ width: '31%', cursor: 'pointer' }} />
-                        <Box style={{ padding: 20, cursor: 'pointer' }}>
-                            <Typography style={{ fontSize: '18px', fontWeight: 400, paddingBottom: 10 }}>Hp 15s,11th Gen Intel Core i3 8GB RAM/1TB HDD+256 GB SSD 15.6-inches/39.6 cm FHD Laptop/Window 11/Intel UHD Graphics/Dual Speaker/Alexa/MSO/FastCharge </Typography>
-                            <Typography style={{ paddingBottom: 10 }}>4.1
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarHalfIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                            </Typography>
-                            <Typography style={{ paddingBottom: 10, fontSize: '28px', fontWeight: 400 }}>&#x20b9;38,490 <span style={{ fontSize: '14px' }}>(25% off)</span></Typography>
-                            <Typography>FREE Delivery by Amazon</Typography>
+                    <NavLink to='/lapotp-products-hp15s-intel' style={{ textDecoration: 'none', color: 'black' }}>
+                        <Box style={{ width: '98%', background: 'white', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px', height: 230, padding: 10, display: 'flex', marginBottom: 20 }}>
+                            <img src={img3} style={{ width: '31%', cursor: 'pointer' }} />
+                            <Box style={{ padding: 20, cursor: 'pointer' }}>
+                                <Typography style={{ fontSize: '18px', fontWeight: 400, paddingBottom: 10 }}>Hp 15s,11th Gen Intel Core i3 8GB RAM/1TB HDD+256 GB SSD 15.6-inches/39.6 cm FHD Laptop/Window 11/Intel UHD Graphics/Dual Speaker/Alexa/MSO/FastCharge </Typography>
+                                <Typography style={{ paddingBottom: 10 }}>4.1
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarHalfIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                </Typography>
+                                <Typography style={{ paddingBottom: 10, fontSize: '28px', fontWeight: 400 }}>&#x20b9;38,490 <span style={{ fontSize: '14px' }}>(25% off)</span></Typography>
+                                <Typography>FREE Delivery by Amazon</Typography>
+                            </Box>
                         </Box>
-                    </Box>
+                    </NavLink>
 
-                    <Box style={{ width: '98%', background: 'white', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px', height: 230, padding: 10, display: 'flex', marginBottom: 20 }}>
-                        <img src={img4} style={{ width: '31%', cursor: 'pointer' }} />
-                        <Box style={{ padding: 20, cursor: 'pointer' }}>
-                            <Typography style={{ fontSize: '18px', fontWeight: 400, paddingBottom: 10 }}>HP 255 G8 Laptop with AMD Athlon Silver 3050U APU/ 8GB Ram/ 256GB SSD/DOS/AMD Radeon Vega 8 Mobile Graphics/39.6 cm HD (1366 x 768), SVA, Anti-Glare WLED/Black/1 Year Onsite Warranty </Typography>
-                            <Typography style={{ paddingBottom: 10 }}>4.1
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                                <StarHalfIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
-                            </Typography>
-                            <Typography style={{ paddingBottom: 10, fontSize: '28px', fontWeight: 400 }}>&#x20b9;25,999 <span style={{ fontSize: '14px' }}>(74% off)</span></Typography>
-                            <Typography>FREE Delivery by Amazon</Typography>
+                    <NavLink to='/lapotp-products-hp15s-intel-Athlon Silver' style={{ textDecoration: 'none', color: 'black' }}>
+
+                        <Box style={{ width: '98%', background: 'white', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px', height: 230, padding: 10, display: 'flex', marginBottom: 20 }}>
+                            <img src={img4} style={{ width: '31%', cursor: 'pointer' }} />
+                            <Box style={{ padding: 20, cursor: 'pointer' }}>
+                                <Typography style={{ fontSize: '18px', fontWeight: 400, paddingBottom: 10 }}>HP 255 G8 Laptop with AMD Athlon Silver 3050U APU/ 8GB Ram/ 256GB SSD/DOS/AMD Radeon Vega 8 Mobile Graphics/39.6 cm HD (1366 x 768), SVA, Anti-Glare WLED/Black/1 Year Onsite Warranty </Typography>
+                                <Typography style={{ paddingBottom: 10 }}>4.1
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                    <StarHalfIcon style={{ fontSize: 20, paddingTop: 5, color: '#FFA41C' }} />
+                                </Typography>
+                                <Typography style={{ paddingBottom: 10, fontSize: '28px', fontWeight: 400 }}>&#x20b9;25,999 <span style={{ fontSize: '14px' }}>(74% off)</span></Typography>
+                                <Typography>FREE Delivery by Amazon</Typography>
+                            </Box>
                         </Box>
-                    </Box>
+                    </NavLink>
 
                 </div>
 

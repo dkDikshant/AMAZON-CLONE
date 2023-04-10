@@ -20,6 +20,8 @@ import Gaming from './components/laptop/Gaming';
 import LaptopProducts from './components/products/LaptopProducts';
 import LaptopProductsAcer from './components/products/LaptopProductsAcer';
 import LaptopProductsHp from './components/products/LaptopProductsHp';
+import LaptopProductsHpintel from './components/products/LaptopProductsHpintel'
+import LaptopProductsHpintellow from './components/products/LaptopProductsHpintellow';
 
 
 function App() {
@@ -46,6 +48,8 @@ function App() {
         <Route path='/lapotp-products' element={<LaptopProducts/>}/>
         <Route path='/lapotp-products-acer' element={<LaptopProductsAcer/>}/>
         <Route path='/lapotp-products-hp15s-AMD' element={<LaptopProductsHp/>}/>
+        <Route path='/lapotp-products-hp15s-intel' element={<LaptopProductsHpintel/>}/>
+        <Route path='/lapotp-products-hp15s-intel-Athlon Silver' element={<LaptopProductsHpintellow/>}/>
       </Routes>
     </BrowserRouter>
     </>
