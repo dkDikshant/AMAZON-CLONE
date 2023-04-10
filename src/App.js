@@ -30,6 +30,7 @@ import Bag from './components/products/Bag';
 import Pharmacy from './components/products/Pharmacy';
 import Clovia from './components/products/Clovia';
 import Enamor from './components/products/Enamor';
+import Zivame from './components/products/Zivame';
 
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
         <Route path='/pharmacy' element={<Pharmacy/>}/>
         <Route path='/clovia' element={<Clovia/>}/>
         <Route path='/enamor' element={<Enamor/>}/>
+        <Route path='/zivame' element={<Zivame/>}/>
       </Routes>
     </BrowserRouter>
     </>

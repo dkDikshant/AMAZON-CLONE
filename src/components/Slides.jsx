@@ -115,8 +115,10 @@ const Slides = () => {
                     </Box>
                     <Box style={{ display: 'flex' }}>
                         <Box style={{ width: 130, height: 150, padding: 5, marginLeft: 10 }}>
-                            <img src={img3} style={{ width: 130, height: 100, marginBottom: 0, paddingBottom: 0 }} />
-                            <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 999</p>
+                            <NavLink to='/zivame' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img3} style={{ width: 130, height: 100, marginBottom: 0, paddingBottom: 0 }} />
+                                <p style={{ fontSize: 12, paddingTop: 0, marginTop: 0, fontWeight: 400, paddingLeft: 10 }}>Minimum Order of {"\u20B9"} 999</p>
+                            </NavLink>
                         </Box>
                         <Box style={{ width: 130, height: 150, padding: 5, marginRight: 10 }}>
                             <img src={img4} style={{ width: 130, height: 100 }} />
