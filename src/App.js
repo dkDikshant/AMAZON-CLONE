@@ -24,6 +24,8 @@ import LaptopProductsHpintel from './components/products/LaptopProductsHpintel'
 import LaptopProductsHpintellow from './components/products/LaptopProductsHpintellow';
 import Headphones from './components/products/Headphones';
 import Smartwatch from './components/products/Smartwatch';
+import Keyboard from './components/products/Keyboard';
+import Pendrive from './components/products/Pendrive';
 
 
 function App() {
@@ -54,6 +56,8 @@ function App() {
         <Route path='/lapotp-products-hp15s-intel-Athlon Silver' element={<LaptopProductsHpintellow/>}/>
         <Route path='/electronic-headphones' element={<Headphones/>}/>
         <Route path='/electronic-smartwatch' element={<Smartwatch/>}/>
+        <Route path='/electronic-keyboard' element={<Keyboard/>}/>
+        <Route path='/electronic-pendrive' element={<Pendrive/>}/>
       </Routes>
     </BrowserRouter>
     </>

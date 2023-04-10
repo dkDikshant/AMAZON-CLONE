@@ -78,7 +78,9 @@ const Electronic = () => {
                 </div>
                 <div className='right'>
                     <Box style={{ padding: 20 }}>
-                        <img src={img1} style={{ width: 1000 }} />
+                        <NavLink to='/electronic-headphones'>
+                            <img src={img1} style={{ width: 1000 }} />
+                        </NavLink>
                         <img src={img2} style={{ width: 1000 }} />
                     </Box>
                     <Box style={{ display: 'flex', padding: 20 }}>
@@ -95,12 +97,16 @@ const Electronic = () => {
                             </NavLink>
                         </div>
                         <div>
-                            <img src={img5} style={{ width: '90%', cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Computer accessories</Typography>
+                            <NavLink to='/electronic-keyboard' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img5} style={{ width: '90%', cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Computer accessories</Typography>
+                            </NavLink>
                         </div>
                         <div>
-                            <img src={img6} style={{ width: '90%', cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>pendrive</Typography>
+                            <NavLink to='/electronic-pendrive' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img6} style={{ width: '90%', cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>pendrive</Typography>
+                            </NavLink>
                         </div>
                     </Box>
                     <Typography style={{ textAlign: 'center', marginTop: 50, fontSize: 40 }}>Handpicked collection for you</Typography>
