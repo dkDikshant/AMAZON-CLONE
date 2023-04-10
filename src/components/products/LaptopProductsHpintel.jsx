@@ -41,7 +41,7 @@ const LaptopProductsHpintel = () => {
             <div className='App'>
                 <div className='ImageGalleryContainer' style={{ padding: 20 }}>
 
-                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={2000} />
+                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={1000} />
                 </div>
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>HP 15s, 11th Gen Intel Core i3 8GB RAM/1TB HDD+256 GB SSD 15.6-inches/39.6 cm FHD Laptop/Windows 11/Intel UHD Graphics/Dual Speakers/Alexa/MSO/Fast Charge/1.75 Kg, 15s-du3614TU

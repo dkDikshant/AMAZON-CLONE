@@ -38,7 +38,7 @@ const LaptopProductsHpintellow = () => {
             <div className='App'>
                 <div className='ImageGalleryContainer' style={{ padding: 20 }}>
 
-                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={2000} />
+                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={1000} />
                 </div>
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>HP 255 G8 Laptop with AMD Athlon Silver 3050U APU/ 8GB Ram/ 256GB SSD/DOS/AMD Radeon Vega 8 Mobile Graphics/39.6 cm HD (1366 x 768), SVA, Anti-Glare WLED/Black/1 Year Onsite Warranty

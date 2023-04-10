@@ -40,7 +40,7 @@ const Smartwatch = () => {
             <div className='App'>
                 <div className='ImageGalleryContainer' style={{ padding: 20 }}>
 
-                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={2000} />
+                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={1000} />
                 </div>
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>CELLECOR ActFit A3 Pro SpO2 IP68 Waterproof Smartwatch with 10 Days Long Battery, 24 * 7 Heart Rate Monitoring, Multi Sports Mode with Bluetooth Support for Calling and Music Control (1.28") (Black)</Typography>

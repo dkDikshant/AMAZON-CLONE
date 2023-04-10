@@ -42,7 +42,7 @@ const LaptopProductsHp = () => {
             <div className='App'>
                 <div className='ImageGalleryContainer' style={{ padding: 20 }}>
 
-                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={2000} />
+                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={1000} />
                 </div>
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>HP 15s, AMD Ryzen 3 5300U, 15.6 inch(39.6cm) FHD Anti-Glare Laptop(8GB RAM/512 GB SSD/AMD Radeon Graphics/Win 11/MSO/Backlit Keyboard/Dual Speakers) 15s- eq2213AU</Typography>

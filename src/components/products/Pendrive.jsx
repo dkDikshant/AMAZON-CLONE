@@ -40,7 +40,7 @@ const Pendrive = () => {
             <div className='App'>
                 <div className='ImageGalleryContainer' style={{ padding: 20 }}>
 
-                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={2000} />
+                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={1000} />
                 </div>
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>SanDisk Ultra Flair 64GB USB 3.0 Pen Drive, Multicolor</Typography>

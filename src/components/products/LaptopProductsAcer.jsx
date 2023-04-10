@@ -43,7 +43,7 @@ const LaptopProductsAcer = () => {
             <div className='App'>
                 <div className='ImageGalleryContainer' style={{ padding: 20 }}>
 
-                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={2000} />
+                    <ImageGallery items={images} thumbnailPosition='left' infinite='true' showFullscreenButton={false} showPlayButton={false} thumbnailWidth={100} thumbnailHeight={10} showNav={false} autoPlay={true} slideInterval={1000} />
                 </div>
                 <div className='TextContainer' style={{ padding: 20 }}>
                     <Typography style={{ fontSize: '24px', fontWeight: 400 }}>Acer Aspire Vero Green Thin and Light Laptop Intel Core i5 11th Gen (Windows 11 Home/MS Office/8 GB/512 GB SSD/Fingerprint Reader/Backlit KB) AV15-51 with 39.6 cm (15.6 inch) with FHD IPS Display</Typography>
