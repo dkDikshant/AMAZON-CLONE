@@ -11,6 +11,7 @@ import img3 from '../../IMAGES/BestSeller/img3.jpg'
 import img4 from '../../IMAGES/BestSeller/img4.jpg'
 import img5 from '../../IMAGES/BestSeller/img5.jpg'
 import StarIcon from '@mui/icons-material/Star';
+import { NavLink } from 'react-router-dom'
 
 
 const responsive = {
@@ -62,17 +63,22 @@ const BestSeller = () => {
                 <div className="right-column">
                     <Typography style={{ padding: 20, fontSize: 30 }}>Bestseller in Video Games </Typography>
                     <Carousel responsive={responsive}
-                        infinite={true}>
+                        infinite={true}
+                        autoPlay={true}
+                        autoPlaySpeed={2000}
+                    >
                         <div>
-                            <img src={img1} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
-                            <Typography style={{ textAlign: 'center' }}>Sony PS5 Playstation Console</Typography>
-                            <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                                <StarIcon />
-                            </Box>
+                            <NavLink to='/best-seller-SonyPS5' style={{ textDecoration: 'none', color: 'black' }}>
+                                <img src={img1} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />
+                                <Typography style={{ textAlign: 'center' }}>Sony PS5 Playstation Console</Typography>
+                                <Box style={{ color: '#FFA41C', paddingLeft: 50 }}>
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                    <StarIcon />
+                                </Box>
+                            </NavLink>
                         </div>
                         <div>
                             <img src={img2} style={{ width: '90%', padding: 10, cursor: 'pointer' }} />

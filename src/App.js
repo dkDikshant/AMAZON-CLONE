@@ -32,6 +32,7 @@ import Clovia from './components/products/Clovia';
 import Enamor from './components/products/Enamor';
 import Zivame from './components/products/Zivame';
 import Nykaa from './components/products/Nykaa';
+import SonyPS5 from './components/products/SonyPS5';
 
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
         <Route path='/enamor' element={<Enamor/>}/>
         <Route path='/zivame' element={<Zivame/>}/>
         <Route path='/nykaa' element={<Nykaa/>}/>
+        <Route path='/best-seller-SonyPS5' element={<SonyPS5/>}/>
       </Routes>
     </BrowserRouter>
     </>

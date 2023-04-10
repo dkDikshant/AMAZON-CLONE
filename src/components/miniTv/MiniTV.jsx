@@ -78,7 +78,7 @@ const MiniTV = () => {
                 draggable={false}
                 responsive={responsive}
                 autoPlay={true}
-                autoPlaySpeed={3000}
+                autoPlaySpeed={2000}
                 infinite={true}
             >
                 <div><ImgStyle src={img1} alt="" /></div>
@@ -97,7 +97,7 @@ const MiniTV = () => {
                     draggable={false}
                     responsive={responsive1}
                     autoPlay={true}
-                    autoPlaySpeed={3000}
+                    autoPlaySpeed={1000}
                     infinite={true}
                 >
                     <div><img src={imgg1} style={{ width: '100%', height: 150 }} /></div>
